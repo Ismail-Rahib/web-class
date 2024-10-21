@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+
+
+
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;  
+            align-items: center;      
+            height: 100vh;            
+            background-color: #f4f4f4;
+            margin: 0;    
+            background-image:url(qun.png);          
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+
+            
+        }
+ 
+
+
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+    <h1>login page</h1>
+    <form action="quntnex.html" method="post">
+        
+       Usename: <input type="text" name="username" pattern="[A-Za-z]+" title="include Upper case and lower case"/><br>
+       password: <input type="password" name="password" pattern=".{8,}" title="include atleast 1 numbaer, 1 uppercase and  1 lower case and 8 or more character"/><br>
+       <input type="submit" value="login"/>
+    </form>
+    </div>
+
+</body>
+</html>
